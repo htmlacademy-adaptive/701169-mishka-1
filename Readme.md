@@ -1,7 +1,7 @@
 # Личный проект «Мишка» 
 
 * Студент: [Darya Rychagova](https://up.htmlacademy.ru/adaptive-individual/1/user/701169).
-* Наставник: [Darya Rychagova](https://up.htmlacademy.ru/adaptive-individual/1/user/701169).
+* Наставник: [Irina Malinovskaya](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
