@@ -32,3 +32,18 @@
 .about-list__item:not(:last-child) {
   padding-bottom: 42px;
 }
+
+
+@media (min-width: 768px) {
+  .about__title {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .about-list {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 110px;
+  }
+}

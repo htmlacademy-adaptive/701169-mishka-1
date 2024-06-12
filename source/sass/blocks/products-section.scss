@@ -12,3 +12,9 @@
   max-width: 130px;
   padding-left: 30px;
 }
+
+@media (min-width: 768px) {
+  .products-section {
+    width: 50%;
+  }
+}

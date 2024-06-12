@@ -8,7 +8,7 @@
   <body class="body">
     <header class="main-header">
       <a href="" class="main-header__logo">
-        <img src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка." class="main-header__logo-pic">
+        <img class="main-header__logo-pic" src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка.">
       </a>
       <button class="main-header__toogle">
         <span class="visually-hidden">Открыть меню</span>
@@ -96,13 +96,15 @@
           Контакты
         </h2>
         <div class="contact__wrapper">
-          <address class="contact__email">
-            <span>e-mail:</span>
-            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-          </address>
-          <address class="contact__address">
-            <span>адрес:</span>
-            <span>Санкт-Петербургул. Большая Конюшенная д. 19/8, офис 101</span>
+          <address class="contact__section">
+            <div class="contact__email">
+              <span>e-mail:</span>
+              <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+            </div>
+            <div class="contact__address">
+              <span>адрес:</span>
+              <span>Санкт-Петербургул. Большая Конюшенная д. 19/8, офис 101</span>
+            </div>
           </address>
           <div class="contact__map">
             <img src="./img/map-mobile.jpg" alt="Карта проезда.">
@@ -113,6 +115,9 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer__wrapper">
+        <a class="main-footer__logo" href="">
+          <img src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка.">
+        </a>
         <div class="main-footer__social social">
           <ul class="social-list">
             <li class="social-list__item">
@@ -134,7 +139,7 @@
         </div>
         <div class="main-footer__development">
           <h2 class="main-footer__title">Разработано</h2>
-          <a href="" class="main-footer__logo">
+          <a href="" class="main-footer__logo-academy">
             <img src="./img/footer-logo.svg" alt="Логотип Html-академия.">
           </a>
         </div>

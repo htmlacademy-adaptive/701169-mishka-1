@@ -71,3 +71,33 @@
 .top-product__button {
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .top-product__bage {
+    text-align: right;
+    margin-top: -30px;
+  }
+
+  .top-product__description {
+    width: 292px;
+  }
+
+  .top-product__features {
+    width: 256px;
+  }
+
+  .top-product__image {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -246px;
+  }
+
+  .top-product__price {
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .top-product__button {
+    margin-left: 50px;
+  }
+}

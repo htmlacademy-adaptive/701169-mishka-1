@@ -46,3 +46,11 @@
 .contact__button {
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .contact__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

@@ -7,10 +7,19 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  max-width: 260px;
+  width: 260px;
   text-align: center;
   // background-image: url("../img/hero-mobile.jpg");
   // background-repeat: no-repeat;
   // background-size: contain;
   // width: 506px;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 668px;
+}
 }

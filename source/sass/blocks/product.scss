@@ -43,3 +43,14 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: 1160px) {
+  .product {
+    border: none;
+  }
+
+  .product__pic {
+    width: 316px;
+    height: 462px;
+  }
+}
