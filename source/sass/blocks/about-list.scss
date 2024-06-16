@@ -1,0 +1,27 @@
+.about-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-list__item {
+  font-family: "Opensans Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  max-width: 260px;
+}
+
+.about-list__item:not(:last-child) {
+  padding-bottom: 42px;
+}
+
+@media (min-width: 768px) {
+  .about-list {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 110px;
+  }
+}

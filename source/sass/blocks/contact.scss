@@ -2,6 +2,12 @@
   margin: 0 30px 39px 30px;
 }
 
+.contact__wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .contact__title {
   font-family: "Opensans Bold", sans-serif;
   font-size: 25px;
@@ -41,6 +47,8 @@
   margin: 0 auto;
   margin-bottom: 42px;
   padding: 0;
+  width: 100%;
+  background-size: cover;
 }
 
 .contact__button {
