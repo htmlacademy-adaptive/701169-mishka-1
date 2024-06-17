@@ -1,0 +1,21 @@
+.main-title {
+  font-family: "Opensans Bold", sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  padding: 0;
+  padding-top: 73px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 668px;
+}
+}

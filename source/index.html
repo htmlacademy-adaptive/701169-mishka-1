@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="main-body">
     <header class="main-header">
       <a href="" class="main-header__logo">
-        <img src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка." class="main-header__logo-pic">
+        <img class="main-header__logo-pic" src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка.">
       </a>
       <button class="main-header__toogle">
         <span class="visually-hidden">Открыть меню</span>
@@ -22,13 +23,15 @@
       </div>
     </header>
     <main class="main">
-      <h1 class="main-title">Милые штуки ручной работы для дома</h1>
+      <div class="main-hero">
+        <h1 class="main-title">Милые штуки ручной работы для дома</h1>
+      </div>
       <div class="products">
         <div class="products-section">
-          Предметы интерьера
+          <p class="products-section__title">Предметы интерьера</p>
         </div>
-        <div class="products-section">
-          Детские игрушки
+        <div class="products-section products-section--dark">
+          <p class="products-section__title">Детские игрушки</p>
         </div>
       </div>
       <section class="top-product">
@@ -42,18 +45,15 @@
           <p class="top-product__description">
             Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.
           </p>
-          <div class="top-product__features features-color">
+          <div class="top-product__features">
             <span>Цвет:</span>
             <span>Тиффани/Серый</span>
-          </div>
-          <div class="top-product__features features-diameter">
             <span>Диаметр:</span>
             <span>25 см</span>
-          </div>
-          <div class="top-product__features features-height">
             <span>Высота:</span>
             <span>15 см</span>
           </div>
+          <img class="top-product__image" src="./img/triple-set-mobile.jpg" alt="Изображение топ-продукта.">
           <p class="top-product__price">Цена: 990 руб.</p>
           <button class="top-product__button button">Заказать</button>
         </div>
@@ -74,14 +74,14 @@
       <section class="reviews">
         <h2 class="reviews__title">Отзывы</h2>
         <div class="reviews__wrapper">
-          <span class="reviews__text">
+          <div class="reviews__text">
             Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как
             у популярных инстамамочек.
             В отчаянии, я накупила аксессуаров и игрушек в Мишке,
             и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-          </span>
-          <span class="reviews__author">Анастасия Красильникова</span>
-          <span class="reviews__nickname">@misssssiskras</span>
+          </div>
+          <div class="reviews__author">Анастасия Красильникова</div>
+          <div class="reviews__nickname">@misssssiskras</div>
           <div class="reviews__toggle">
             <a href="" class="reviews-shift">
               <img src="./img/arrow-left.svg" alt="Перейти к предыдущему отзыву.">
@@ -98,13 +98,15 @@
           Контакты
         </h2>
         <div class="contact__wrapper">
-          <address class="contact__email">
-            <span>e-mail:</span>
-            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-          </address>
-          <address class="contact__address">
-            <span>адрес:</span>
-            <span>Санкт-Петербургул. Большая Конюшенная д. 19/8, офис 101</span>
+          <address class="contact__section">
+            <div class="contact__email">
+              <span>e-mail:</span>
+              <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+            </div>
+            <div class="contact__address">
+              <span>адрес:</span>
+              <span>Санкт-Петербургул. Большая Конюшенная д. 19/8, офис 101</span>
+            </div>
           </address>
           <div class="contact__map">
             <img src="./img/map-mobile.jpg" alt="Карта проезда.">
@@ -115,6 +117,9 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer__wrapper">
+        <a class="main-footer__logo" href="">
+          <img src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка.">
+        </a>
         <div class="main-footer__social social">
           <ul class="social-list">
             <li class="social-list__item">
@@ -136,7 +141,7 @@
         </div>
         <div class="main-footer__development">
           <h2 class="main-footer__title">Разработано</h2>
-          <a href="" class="main-footer__logo">
+          <a href="" class="main-footer__logo-academy">
             <img src="./img/footer-logo.svg" alt="Логотип Html-академия.">
           </a>
         </div>

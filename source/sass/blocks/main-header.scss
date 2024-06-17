@@ -1,0 +1,11 @@
+.main-header__logo-pic {
+  display: block;
+  margin: 22px auto 0;
+}
+
+@media (min-width: 768px) {
+  .main-header__logo {
+    margin: 0;
+    margin-right: auto;
+  }
+}

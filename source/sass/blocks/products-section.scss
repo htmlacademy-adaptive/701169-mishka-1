@@ -1,0 +1,22 @@
+
+.products-section--dark {
+  background-color: #56C3B2;
+  }
+
+.products-section__title {
+  font-size: 19px;
+  line-height: 24px;
+  text-align: left;
+  font-family: "Opensans Bold", sans-serif;
+  padding-top: 24px;
+  padding-bottom: 31px;
+  max-width: 130px;
+  padding-left: 30px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .products-section {
+    width: 50%;
+  }
+}

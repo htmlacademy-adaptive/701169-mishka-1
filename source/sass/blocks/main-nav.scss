@@ -1,0 +1,33 @@
+.main-nav__list {
+  list-style-type: none;
+  font-family: "Opensans Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-nav__list-item {
+  border-top: 1px solid #ECECEC;
+  width: 100%;
+  padding-top: 28px;
+  padding-bottom: 27px;
+
+  &:last-child {
+    border-bottom: 1px solid #ECECEC;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .main-nav__list {
+    display: flex;
+    margin-right: auto;
+
+  }
+
+}
