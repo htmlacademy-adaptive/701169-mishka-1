@@ -7,3 +7,18 @@
   background-size: cover;
   height: 368px;
 }
+
+
+@media (min-width: 768px) {
+  .main-hero {
+    margin-top: -70px;
+    background-position: 0 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-hero {
+    margin-top: -50px;
+    background-position: 0 40px;
+  }
+}

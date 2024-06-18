@@ -4,8 +4,16 @@
 }
 
 @media (min-width: 768px) {
-  .main-header__logo {
+  .main-header__logo-pic {
     margin: 0;
     margin-right: auto;
+    margin-left: 48px;
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-header__logo-pic {
+    margin: 9px auto 0;
   }
 }

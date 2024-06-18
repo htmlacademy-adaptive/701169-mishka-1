@@ -21,13 +21,47 @@
   }
 }
 
+.main-nav__list-item--desktop {
+  display: none;
+}
+
 
 @media (min-width: 768px) {
 
   .main-nav__list {
     display: flex;
     margin-right: auto;
+  }
 
+  .main-nav__list-item {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+}
+
+@media (min-width: 1150px) {
+  .main-nav__list {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    margin-right: auto;
+    margin-top: -70px;
+    position: absolute;
+    text-align: left;
+  }
+
+  .main-nav__list-item {
+    padding-bottom: 31px;
+    margin-left: 35px;
+  }
+
+  .main-nav__list-item--desktop {
+    display: block;
   }
 
 }
