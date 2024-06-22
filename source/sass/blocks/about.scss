@@ -14,7 +14,7 @@
   text-align: left;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .about__title {
     font-size: 43px;
     line-height: 50px;

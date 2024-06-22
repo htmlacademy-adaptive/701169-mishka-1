@@ -17,7 +17,7 @@
   padding-bottom: 42px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .about-list {
     margin-top: 110px;
     display: grid;

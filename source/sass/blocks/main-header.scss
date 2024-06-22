@@ -3,7 +3,7 @@
   margin: 22px auto 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .main-header__logo-pic {
     margin: 0;
     margin-right: auto;
@@ -12,7 +12,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop) {
   .main-header__logo-pic {
     margin: 9px auto 0;
   }

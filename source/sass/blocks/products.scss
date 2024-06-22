@@ -1,11 +1,11 @@
 .products {
-  background-color: #63d1bb;
-  color: #ffffff;
+  background-color: $mint;
+  color: $white;
   margin-bottom: 31px;
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .products {
     display: flex;
     // width: 668px;

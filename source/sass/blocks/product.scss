@@ -1,5 +1,5 @@
 .product {
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   margin-bottom: 30px;
 }
 
@@ -28,7 +28,7 @@
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-  color: #444444;
+  color: $dark-grey;
   margin: 0;
   margin-bottom: 41px;
   padding: 0;
@@ -44,7 +44,7 @@
   padding: 0;
 }
 
-@media (min-width: 1160px) {
+@media (min-width: $desktop) {
   .product {
     border: none;
   }
