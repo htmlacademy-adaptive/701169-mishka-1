@@ -36,7 +36,7 @@
   flex-wrap: wrap;
   width: 260px;
   justify-content: space-around;
-  border: 1px solid #ECECEC;
+  border: 1px solid $grey;
   box-sizing: border-box;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -51,6 +51,5 @@
 
   .reviews__button {
     margin-left: auto;
-
   }
 }
