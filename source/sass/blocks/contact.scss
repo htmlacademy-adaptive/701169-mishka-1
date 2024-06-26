@@ -9,33 +9,32 @@
 }
 
 .contact__title {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
   text-align: left;
-
 }
 
 .contact__email {
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-  color: #444444;
+  color: $dark-grey;
   font-style: normal;
   display: grid;
   grid-template-columns: 76px 183px;
 }
 
 .contact__address {
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-  color: #444444;
+  color: $dark-grey;
   font-style: normal;
   display: grid;
   grid-template-columns: 76px 183px;
@@ -55,7 +54,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .contact__section {
     display: flex;
     flex-wrap: wrap;

@@ -1,5 +1,5 @@
 .main-title {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 27px;
   line-height: 30px;
   padding: 0;
@@ -11,11 +11,17 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .main-title {
     font-size: 43px;
     font-weight: 700;
     line-height: 50px;
     width: 668px;
+  }
 }
+
+@media (min-width: $desktop) {
+  .main-title {
+    padding-top: 114px;
+  }
 }
