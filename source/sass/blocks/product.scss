@@ -12,7 +12,7 @@
 }
 
 .product__name {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -23,7 +23,7 @@
 }
 
 .product__measures {
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 13px;
   font-weight: 400;
   line-height: 30px;
@@ -35,7 +35,7 @@
 }
 
 .product__price {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;

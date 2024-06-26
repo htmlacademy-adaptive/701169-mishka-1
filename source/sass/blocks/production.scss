@@ -5,7 +5,7 @@
 }
 
 .production__title {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -16,7 +16,7 @@
 }
 
 .production__desc {
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;

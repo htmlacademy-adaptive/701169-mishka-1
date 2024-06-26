@@ -1,11 +1,13 @@
 // Начните писать стили здесь
+@import "./common/variables.scss";
 @import "./common/fonts.scss";
+@import "./blocks/button.scss";
+@import "./common/visually-hidden.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-title.scss";
 @import "./blocks/products.scss";
 @import "./blocks/products-section.scss";
 @import "./blocks/top-product.scss";
-@import "./common/button.scss";
 @import "./blocks/about.scss";
 @import "./blocks/reviews.scss";
 @import "./blocks/contact.scss";
@@ -16,7 +18,6 @@
 @import "./blocks/page-title.scss";
 @import "./blocks/page-sections.scss";
 @import "./blocks/page-shipping.scss";
-@import "./common/visually-hidden.scss";
 @import "./blocks/catalog-products.scss";
 @import "./blocks/products-list.scss";
 @import "./blocks/product.scss";
@@ -38,4 +39,5 @@
 @import "./blocks/reviews-title.scss";
 @import "./blocks/service-button.scss";
 @import "./blocks/type-list.scss";
-@import "./common/variables.scss";
+@import "./blocks/extra-list.scss";
+

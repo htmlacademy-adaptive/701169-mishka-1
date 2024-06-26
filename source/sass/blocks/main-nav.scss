@@ -1,6 +1,6 @@
 .main-nav__list {
   list-style-type: none;
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -19,11 +19,6 @@
     border-bottom: 1px solid $grey;
   }
 }
-
-.main-nav__list-item--desktop {
-  display: none;
-}
-
 
 @media (min-width: $tablet) {
   .main-nav__list {
@@ -55,9 +50,5 @@
   .main-nav__list-item {
     padding-bottom: 31px;
     margin-left: 35px;
-  }
-
-  .main-nav__list-item--desktop {
-    display: block;
   }
 }

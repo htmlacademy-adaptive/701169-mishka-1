@@ -1,10 +1,9 @@
 .button {
   width: 260px;
   height: 52px;
-  border: 2px 0 0 0;
-  border-color: #444444;
+  border: 2px solid #444444;
   opacity: 0;
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   text-transform: uppercase;
   color: #444444;
   font-size: 18px;

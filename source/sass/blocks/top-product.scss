@@ -7,7 +7,7 @@
 }
 
 .top-product__title {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
@@ -17,7 +17,7 @@
 }
 
 .top-product__bage {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
@@ -30,7 +30,7 @@
 .top-product__description {
   margin: 0;
   padding: 0;
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -47,7 +47,7 @@
   margin: 0;
   margin-bottom: 41px;
   padding: 0;
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   color: $dark-grey;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .top-product__price {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
