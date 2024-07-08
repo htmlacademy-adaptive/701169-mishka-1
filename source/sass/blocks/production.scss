@@ -1,29 +1,29 @@
 .production {
-  border: 1px solid #e1e1e1;
+  border: 1px solid $normal-grey;
   margin: 0 30px 58px;
   padding: 0;
 }
 
 .production__title {
+  width: 156px;
+  margin: 21px 0 0 91px;
+  padding: 0;
   font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  margin: 21px 0 0 91px;
-  padding: 0;
-  width: 156px;
 }
 
 .production__desc {
+  width: 350px;
+  margin: 0 auto 41px;
   font-family: $regular;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: $dark-grey;
-  width: 350px;
-  margin: 0 auto 41px;
 }
 
 .production__order {

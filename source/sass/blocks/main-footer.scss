@@ -3,25 +3,25 @@
 }
 
 .main-footer__wrapper {
-  background-color: $light-grey;
   padding-top: 25px;
+  background-color: $light-grey;
 }
 
 .main-footer__development {
-  padding: 0;
   display: flex;
-  align-items: center;
   width: 172px;
   margin: 59px auto 0;
+  padding: 0;
+  align-items: center;
 }
 
 .main-footer__title {
+  margin-right: 27px;
   font-family: $bold;
   font-size: 19px;
   font-weight: 700;
   line-height: 18px;
   text-align: left;
-  margin-right: 27px;
 }
 
 .main-footer__logo-academy {
@@ -32,8 +32,8 @@
   .main-footer__wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
   }
 
   .main-footer__development {

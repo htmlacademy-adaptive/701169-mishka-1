@@ -4,19 +4,19 @@
 }
 
 .products-section__title {
+  max-width: 130px;
+  margin: 0;
+  padding: 24px 0 31px 30px;
+  font-family: $bold;
   font-size: 19px;
   line-height: 24px;
   text-align: left;
-  font-family: $bold;
-  padding-top: 24px;
-  padding-bottom: 31px;
-  max-width: 130px;
-  padding-left: 30px;
-  margin: 0;
 }
 
 @media (min-width: $tablet) {
   .products-section {
     width: 50%;
+    max-width: 708px;
+    margin: 0 auto;
   }
 }

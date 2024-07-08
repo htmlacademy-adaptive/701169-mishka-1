@@ -1,6 +1,5 @@
 
 .color-list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   font-family: $bold;
@@ -8,9 +7,9 @@
   font-weight: 700;
   line-height: 18px;
   text-align: left;
+  list-style-type: none;
 }
 
 .color-list__item {
-  margin-bottom: 24px;
-  margin-left: 61px;
+  margin: 0 0 24px 61px;
 }
