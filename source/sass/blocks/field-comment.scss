@@ -6,3 +6,9 @@
   line-height: 16px;
   text-align: left;
 }
+
+@media (min-width: $tablet) {
+  .field-comment {
+    margin-left: 200px;
+  }
+}

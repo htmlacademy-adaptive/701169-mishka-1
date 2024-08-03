@@ -11,6 +11,12 @@
 }
 
 .type-list__item {
-  margin: 0 24px 0 61px;
+  margin: 0 0 24px 0;
   padding: 0;
+}
+
+@media (min-width: $tablet) {
+  .type-list {
+    margin: 15px 0 0 181px;
+  }
 }

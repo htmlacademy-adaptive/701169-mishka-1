@@ -11,5 +11,19 @@
 }
 
 .color-list__item {
-  margin: 0 0 24px 61px;
+  margin: 0 0 24px 0;
+}
+
+@media (min-width: $tablet) {
+  .color-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 0 0 181px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .color-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

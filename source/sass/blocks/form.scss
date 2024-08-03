@@ -7,3 +7,11 @@
   text-transform: uppercase;
   color: $mint;
 }
+
+@media (min-width: $tablet) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+}
