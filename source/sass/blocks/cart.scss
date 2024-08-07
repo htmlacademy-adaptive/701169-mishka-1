@@ -1,6 +1,12 @@
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .cart {
-    margin-top: -86px;
-    margin-right: 20px;
+    margin: -86px 20px 0 0;
+  }
+}
+
+@media (min-width: $desktop) {
+  .cart {
+    position: relative;
+    left: 920px;
   }
 }

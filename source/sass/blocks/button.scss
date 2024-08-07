@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  width: 260px;
+  height: 52px;
+  box-sizing: border-box;
+  font-family: $bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: $dark-grey;
+  background-color: $white;
+  border: 2px solid $dark-grey;
+  opacity: 0;
+}

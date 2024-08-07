@@ -1,11 +1,10 @@
 .person-name {
-  font-family: "Opensans Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 17px;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  margin-bottom: 17px;
 }

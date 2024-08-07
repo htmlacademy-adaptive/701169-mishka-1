@@ -7,7 +7,7 @@
   margin: 0;
   margin-bottom: 33px;
   padding: 0;
-  font-family: "Opensans", sans-serif;
+  font-family: $regular;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -15,7 +15,7 @@
 }
 
 .reviews__author {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -23,12 +23,12 @@
 }
 
 .reviews__nickname {
-  font-family: "Opensans", sans-serif;
+  margin-bottom: 30px;
+  font-family: $regular;
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-  margin-bottom: 30px;
 }
 
 .reviews__toggle {
@@ -36,21 +36,18 @@
   flex-wrap: wrap;
   width: 260px;
   justify-content: space-around;
-  border: 1px solid #ECECEC;
   box-sizing: border-box;
-  padding-top: 13px;
-  padding-bottom: 13px;
   margin-bottom: 31px;
+  padding: 13px 0;
+  border: 1px solid $grey;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .reviews__toggle {
-    margin-left: auto;
-    margin-top: -70px;
+    margin: -70px 0 0 auto;
   }
 
   .reviews__button {
     margin-left: auto;
-
   }
 }

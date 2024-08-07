@@ -1,19 +1,22 @@
 
 .type-list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
   text-align: left;
-
+  list-style-type: none;
 }
 
 .type-list__item {
-  margin: 0;
-  margin-left: 61px;
-  margin-bottom: 24px;
+  margin: 0 0 24px 0;
   padding: 0;
+}
+
+@media (min-width: $tablet) {
+  .type-list {
+    margin: 15px 0 0 181px;
+  }
 }

@@ -3,5 +3,12 @@
 }
 
 .catalog-products__wrapper {
-  margin: 30px;
+  margin: 0 auto;
+  max-width: 260px;
+}
+
+@media (min-width: $tablet) {
+  .catalog-products__wrapper {
+    max-width: 780px;
+  }
 }

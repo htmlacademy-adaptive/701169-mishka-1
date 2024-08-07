@@ -1,16 +1,29 @@
 
 .color-list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
   text-align: left;
+  list-style-type: none;
 }
 
 .color-list__item {
-  margin-bottom: 24px;
-  margin-left: 61px;
+  margin: 0 0 24px 0;
+}
+
+@media (min-width: $tablet) {
+  .color-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 0 0 181px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .color-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

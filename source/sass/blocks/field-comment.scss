@@ -1,8 +1,14 @@
 .field-comment {
-  font-family: "Opensans", sans-serif;
+  margin: 17px auto 30px;
+  font-family: $regular;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  margin: 17px auto 30px;
+}
+
+@media (min-width: $tablet) {
+  .field-comment {
+    margin-left: 200px;
+  }
 }

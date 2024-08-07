@@ -2,3 +2,8 @@
   height: 142px;
 }
 
+@media (min-width: $tablet) {
+  .field-space {
+    width: 501px;
+  }
+}

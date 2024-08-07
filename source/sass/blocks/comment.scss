@@ -1,0 +1,16 @@
+.comment {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet) {
+  .comment {
+    margin: 0 0 0 220px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .comment {
+    margin-left: 180px;
+  }
+}

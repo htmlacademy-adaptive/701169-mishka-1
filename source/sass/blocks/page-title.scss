@@ -1,12 +1,10 @@
 .page-title {
-  font-family: "Opensans Bold", sans-serif;
+  margin: 0;
+  padding: 74px 0;
+  font-family: $bold;
   font-size: 27px;
   font-weight: 700;
   line-height: 30px;
   text-align: center;
-  padding-top: 74px;
-  padding-bottom: 74px;
-  background-color: #F1F1F1;
-  margin: 0;
-
+  background-color: $light-grey;
 }

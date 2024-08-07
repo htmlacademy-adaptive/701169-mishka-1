@@ -1,10 +1,17 @@
 .form__title {
-  font-family: "Opensans Bold", sans-serif;
+  font-family: $bold;
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
   text-align: left;
   text-transform: uppercase;
-  color: #63D1BB;
-  ;
+  color: $mint;
+}
+
+@media (min-width: $tablet) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
 }

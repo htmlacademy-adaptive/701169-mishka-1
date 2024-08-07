@@ -1,22 +1,22 @@
 
 .products-section--dark {
-  background-color: #56C3B2;
-  }
+  background-color: $mint;
+}
 
 .products-section__title {
+  max-width: 130px;
+  margin: 0;
+  padding: 24px 0 31px 30px;
+  font-family: $bold;
   font-size: 19px;
   line-height: 24px;
   text-align: left;
-  font-family: "Opensans Bold", sans-serif;
-  padding-top: 24px;
-  padding-bottom: 31px;
-  max-width: 130px;
-  padding-left: 30px;
-  margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .products-section {
     width: 50%;
+    max-width: 708px;
+    margin: 0 auto;
   }
 }
